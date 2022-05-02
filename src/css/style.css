@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+}
+
+.images img {
+    width: auto;
+    height: 600px;
+    margin-right: -70px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 50px 100px 20px 100px;
+    align-items: center;
+}
+
+.body > img {
+    width: 200px;
+}
+
+form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px;
+    background-color: #fafafa;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    width: 250px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #258af3;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.AltLogin img {
+    width: 25px;
+}
+
+.AltLogin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.AltLogin > a {
+    font-size: 18px;
+    color: 
+    #3a559f;
+}
+
+.AltLogin + a {
+    color: #1b69bc;
+}
+
+.Register {
+    margin-top: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.Register a {
+    color: #1b69bc;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
