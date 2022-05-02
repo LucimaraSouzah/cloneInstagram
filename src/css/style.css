@@ -60,11 +60,11 @@ form button {
     margin-bottom: 10px;
 }
 
-.AltLogin img {
+.altLogin img {
     width: 25px;
 }
 
-.AltLogin a {
+.altLogin a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,17 +72,17 @@ form button {
     margin-bottom: 10px;
 }
 
-.AltLogin > a {
+.altLogin > a {
     font-size: 18px;
     color: 
     #3a559f;
 }
 
-.AltLogin + a {
+.altLogin + a {
     color: #1b69bc;
 }
 
-.Register {
+.register {
     margin-top: 20px;
     background-color: #fafafa;
     border: 1px solid #ccc;
@@ -92,7 +92,7 @@ form button {
     font-size: 18px;
 }
 
-.Register a {
+.register a {
     color: #1b69bc;
 }
 
@@ -107,4 +107,15 @@ footer {
 footer p {
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+/* responsive */
+
+@media screen and (max-width:1023px) {
+    .images img {
+        display: none;
+    }
+    .body {
+        padding: 20px 50px 20px 50px;
+    }
 }
